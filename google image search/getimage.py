@@ -1,8 +1,6 @@
-#Christopher Reeves Web Scraping Tutorial
-#getting page source with python
-#http://youtube.com/creeveshft
-#http://christopherreevesofficial.com
-#http://twitter.com/cjreeves2011
+# Based on the work of Christopher Reeves ( http://youtube.com/creeveshft )
+# He built this a few years ago. Didn't work anymore. Fixed it.
+# By the time you see this, maybe you'll need to update it?
 
 import urllib
 import mechanize
