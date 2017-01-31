@@ -2,9 +2,26 @@
 # He built this a few years ago. Didn't work anymore. Fixed it.
 # By the time you see this, maybe you'll need to update it?
 
+# you might need this:
+# pip install mechanize bs4
+
+try:
+    import mechanize
+except ImportError:
+    print("""You need mechanize!
+    pip install mechanize
+    or install it from http://pypi.python.org/pypi/mechanize""")
+    quit()
+
+try:
+    from bs4 import BeautifulSoup
+except ImportError:
+    print("""You need bs4!
+    pip install bs4
+    or install it from http://pypi.python.org/pypi/bs4""")
+    quit()
+
 import urllib
-import mechanize
-from bs4 import BeautifulSoup
 from urlparse import urlparse
 import hashlib
 import os
