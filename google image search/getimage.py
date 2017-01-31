@@ -1,6 +1,5 @@
 # Based on the work of Christopher Reeves ( http://youtube.com/creeveshft )
-# He built this a few years ago. Didn't work anymore. Fixed it.
-# By the time you see this, maybe you'll need to update it?
+# Fixed and developed by Richard512 ( github.com/richard512 )
 
 try:
     import mechanize
