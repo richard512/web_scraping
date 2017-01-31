@@ -2,9 +2,6 @@
 # He built this a few years ago. Didn't work anymore. Fixed it.
 # By the time you see this, maybe you'll need to update it?
 
-# you might need this:
-# pip install mechanize bs4
-
 try:
     import mechanize
 except ImportError:
